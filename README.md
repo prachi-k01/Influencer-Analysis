@@ -8,21 +8,16 @@ A business analytics case study exploring influencer performance metrics using P
 - [KPIs](#key-performance-indicators-kpis)
 - [Dashboard Overview](#dashboard-overview)
 - [Key Insights](#key-insights)
-- [References](#references)
-
-## Problem Statement 
-A fast-growing fashion and beauty startup needed to evaluate and improve the efficiency of its supply chain operations. Key areas of focus included inventory optimization, supplier performance, quality control, and logistics efficiency.
-
-  
-**Tools used:** PowerBI • Excel • GitHub
 
 ## Objective
-As a Business Analyst for a newly launched fashion and beauty startup, my objective was to evaluate the company's supply chain operations using a data-driven approach to:
+The objective was to evaluate the company's supply chain operations using a data-driven approach to:
 
 - Identify inefficiencies in transportation and supplier performance
 - Minimize operational and delivery costs
 - Improve product quality and inspection turnaround
 - Optimize inventory management across SKUs
+  
+**Tools used:** PowerBI • Excel • GitHub
 
 ### Business Questions Answered
 
@@ -53,50 +48,30 @@ As a Business Analyst for a newly launched fashion and beauty startup, my object
 
 ### Dashboards Overview
 
-Three dashboards were created in Power BI:
+Two interactive dashboards were created in Power BI:
 
-#### Summary
-- KPIs: Total Revenue, Total Products Sold, Costs, Profit Margin
-- Revenue breakdown by product, transport mode, and carrier
-- Top 5 SKUs by revenue
-- Defect rate % by product type
-- Customer demographics overview
+#### Influencer Overview
 
-![Dashboard](dashboard/dashboard_overview.png)
+![Dashboard](dashboard/influencer_overview.png)
 
-#### Product Insights
-- Profit margin & manufacturing costs by product type
-- Inspection result breakdown (Pass, Fail, Pending)
-- Inventory health: understocked, balanced, overstocked SKUs
+#### Engagement & Growth
 
-![Dashboard](dashboard/dashboard_product.png)
+![Dashboard](dashboard/engagement_&_growth.png)
 
-#### Supplier Metrics
-- Supplier location map
-- Cost breakdown by supplier (Manufacturing vs Shipping)
-- Revenue vs Cost per supplier
-- Profit margin % per supplier
-- Defect and cost rates by transport mode
-
-![Dashboard](dashboard/dashboard_supplier.png)
 
 ### Key Insights
-
-1. **Total Revenue:** ₹578K | **Total Costs:** ₹58K | **Total Units Sold:** 46,099  
-2. **Avg Profit Margin:** 86.07% — possibly skewed by outliers  
-3. **Skincare products lead** revenue contribution at 41.52%  
-4. **Top 5 SKUs:** SKU51, SKU38, SKU31, SKU90, SKU2  
-5. **Carrier B** contributes the highest shipping revenue  
-6. **Road and Rail** are high-defect and high-cost transport modes  
-7. **Haircare** has the highest average defect rate (36.86%)  
-8. **70% of inventory** is either overstocked or understocked  
-9. **41% of products** are pending quality inspection  
-10. **Supplier 3** delivers the highest profit margin (91%) with the lowest cost  
-11. **Supplier 1** generates the most revenue but also the highest cost
+1. Total Followers: 15.5 Billion | Total Influencers: 200
+2. Average Engagement Rate: 2.87% — smaller influencers (<50M followers) tend to outperform mega influencers.
+3. Cristiano Ronaldo is the most-followed influencer (475M followers).
+4. j.m & thv have the highest engagement rates (35% and 33%) despite smaller audiences.
+5. South Korea leads in audience engagement (~17%), followed by Mexico and Puerto Rico.
+6. The average growth rate across influencers is -41%, indicating declining engagement for some large accounts.
+7. Zac Efron (+91%) and Karol G (+83%) show exceptional follower engagement growth.
+8. Outliers identified: Mega influencers with low engagement (e.g., katyperry, snoopdogg).
 
 ### Project Highlights
-- Focused on actionable insights, not just visuals
-- Designed dashboards with business storytelling in mind
-- Built around real-world KPIs: margin, defect %, inventory health, supplier performance
+- Focused on business storytelling with dynamic filters for country, engagement, and follower size.
+- Used Python for EDA and Power BI for interactive dashboards.
+- Designed for marketing teams to identify high-ROI influencers.
 
 
