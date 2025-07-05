@@ -6,7 +6,7 @@ A business analytics case study exploring influencer performance metrics using P
 - [Business Questions Answered](#business-questions-answered)
 - [Data Cleaning & Preparation](#data-cleaning--preparation)
 - [Key Performance Indicators (KPIs)](#key-performance-indicators-kpis)
-- [Dashboards Overview](#dashboard-overview)
+- [Dashboards Overview](#dashboards-overview)
 - [Key Insights](#key-insights)
 
 ## Objective
@@ -38,7 +38,7 @@ The objective was to evaluate the company's supply chain operations using a data
 - Labeled unknown countries as "Unknown" for optional filtering in dashboards.
 - Saved the cleaned dataset as top_insta_influencers_updated.xlsx.
 
-### Key Performance Indicators (KPIs) 📊
+### Key Performance Indicators (KPIs)
 | KPI                             | Description                                         |
 | ------------------------------- | --------------------------------------------------- |
 | **Total Influencers**           | Count of influencers analyzed (200 records)         |
