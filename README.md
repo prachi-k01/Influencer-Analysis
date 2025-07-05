@@ -5,8 +5,8 @@ A business analytics case study exploring influencer performance metrics using P
 - [Objective](#objective)
 - [Business Questions Answered](#business-questions-answered)
 - [Data Cleaning & Preparation](#data-cleaning--preparation)
-- [KPIs](#key-performance-indicators-kpis)
-- [Dashboard Overview](#dashboard-overview)
+- [Key Performance Indicators (KPIs)](#key-performance-indicators-kpis)
+- [Dashboards Overview](#dashboard-overview)
 - [Key Insights](#key-insights)
 
 ## Objective
